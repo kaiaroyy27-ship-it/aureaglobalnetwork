@@ -22,24 +22,45 @@ export const metadata: Metadata = {
     default: 'Aurea Global Network | Empowering Women & Youth Worldwide',
     template: '%s | Aurea Global Network',
   },
-  description: 'Aurea Global Network (AGN) is a youth organization focused on financial literacy, economic empowerment, leadership, and education for women and girls worldwide.',
-  keywords: ['financial literacy', 'women empowerment', 'youth organization', 'leadership', 'education', 'global network', 'women and girls'],
+  description:
+    'Aurea Global Network (AGN) is a youth organization focused on financial literacy, economic empowerment, leadership, and education for women and girls worldwide.',
+
+  keywords: [
+    'financial literacy',
+    'women empowerment',
+    'youth organization',
+    'leadership',
+    'education',
+    'global network',
+    'women and girls',
+  ],
+
   authors: [{ name: 'Kaia Roy', url: 'https://aureaglobalnetwork.org' }],
   creator: 'Aurea Global Network',
   publisher: 'Aurea Global Network',
+
+  // ⭐ THIS IS THE FAVICON FIX
+  icons: {
+    icon: '/favicon.png',
+  },
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://aureaglobalnetwork.org',
     siteName: 'Aurea Global Network',
     title: 'Aurea Global Network | Empowering Women & Youth Worldwide',
-    description: 'Financial literacy, economic empowerment, leadership, and education for women and girls worldwide.',
+    description:
+      'Financial literacy, economic empowerment, leadership, and education for women and girls worldwide.',
   },
+
   twitter: {
     card: 'summary_large_image',
     title: 'Aurea Global Network',
-    description: 'Empowering women and girls through financial literacy and leadership education.',
+    description:
+      'Empowering women and girls through financial literacy and leadership education.',
   },
+
   robots: {
     index: true,
     follow: true,
@@ -61,7 +82,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable} bg-background`}>
+    <html
+      lang="en"
+      className={`${cormorant.variable} ${inter.variable} bg-background`}
+    >
       <body className="antialiased min-h-screen">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
