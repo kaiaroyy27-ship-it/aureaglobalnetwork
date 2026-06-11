@@ -201,7 +201,7 @@ export const mockInterviews = [
     publishedAt: "2026-06-10",
     category: "Finance & Economics",
     thumbnail: "/placeholder.svg?height=400&width=600",
-    soundcloudEmbed: "https://soundcloud.com/example",
+    soundcloudEmbed: "https://soundcloud.com/aurea-global-network/education-education-education",
     fullContent: `
       <h2>On Breaking Barriers in Economics</h2>
       <p>Walkiers reflects on her early career."</p>
