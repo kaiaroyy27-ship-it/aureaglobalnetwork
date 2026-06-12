@@ -97,7 +97,7 @@ export interface ComingSoonProject {
   description: string
   image?: SanityImage
   launchDate?: string
-  type: 'ebook' | 'app' | 'other'
+  type: 'upcoming project' | 'in the works' | 'other'
 }
 
 export interface JoinOption {

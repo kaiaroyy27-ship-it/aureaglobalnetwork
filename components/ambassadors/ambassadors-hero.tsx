@@ -50,7 +50,7 @@ export function AmbassadorsHero() {
           <FadeIn delay={0.3}>
             <div className="flex items-center justify-center gap-8 mt-12">
               <div className="text-center">
-                <span className="font-serif text-3xl md:text-4xl font-medium text-primary">500+</span>
+                <span className="font-serif text-3xl md:text-4xl font-medium text-primary">15+</span>
                 <p className="font-body text-sm text-muted-foreground mt-1">Ambassadors</p>
               </div>
               <div className="w-px h-12 bg-border" />
@@ -60,7 +60,7 @@ export function AmbassadorsHero() {
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center">
-                <span className="font-serif text-3xl md:text-4xl font-medium text-primary">6</span>
+                <span className="font-serif text-3xl md:text-4xl font-medium text-primary">3+</span>
                 <p className="font-body text-sm text-muted-foreground mt-1">Continents</p>
               </div>
             </div>

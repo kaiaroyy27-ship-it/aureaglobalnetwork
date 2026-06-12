@@ -5,24 +5,14 @@ import { FadeIn, StaggerContainer, staggerItem } from '@/components/ui/motion'
 
 const timeline = [
   {
-    year: '2022',
+    year: '2026',
     title: 'The Beginning',
-    description: 'Aurea Global Network was founded with a vision to empower young women through financial literacy.',
-  },
-  {
-    year: '2023',
-    title: 'Global Expansion',
-    description: 'Launched our first international chapters and Ambassador program, reaching 25+ countries.',
-  },
-  {
-    year: '2024',
-    title: 'Growing Impact',
-    description: 'Established 100+ school chapters worldwide and launched Make It Make Cents Wednesday.',
+    description: 'Aurea Global Network was founded with a vision to empower women and girls through financial literacy.',
   },
   {
     year: 'Future',
     title: 'What\'s Next',
-    description: 'Launching The First Step ebook and Walli for Women app to reach even more young women globally.',
+    description: 'Launching exciting projects and recruiting members to reach even more women and youth members globally.',
   },
 ]
 

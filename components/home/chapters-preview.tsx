@@ -53,7 +53,7 @@ export function ChaptersPreview({ chapters }: ChaptersPreviewProps) {
                 </div>
                 <div className="w-px h-12 bg-border" />
                 <div>
-                  <span className="font-serif text-3xl font-medium text-primary">250+</span>
+                  <span className="font-serif text-3xl font-medium text-primary">50+</span>
                   <p className="font-body text-sm text-muted-foreground">Members</p>
                 </div>
               </div>
